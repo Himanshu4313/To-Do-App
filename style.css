@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient( #817c7c, transparent);
+}
+
+
+.toDoContainer{
+    border: 2px solid #808080;
+    width: 60vw;
+    background-color: #fff;
+    background-image: url('https://images.pexels.com/photos/1366922/pexels-photo-1366922.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#taskBox{
+    height: 65vh;
+    overflow: hidden;
+    /* border: 2px solid red; */
+
+}
+#SaveTaskBox{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* border: 2px solid blue; */
+    padding: 7px 15px;
+    width: 45vw;
+    margin: 8px 84px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.to-doheader{
+    text-align: center;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54vw;
+    margin: auto;
+    padding: 4px 4px;
+    background-color: transparent;
+    
+}
+#inputTaskBox{
+    border: 2px solid #000000;
+     border-radius: 4px; 
+    }
+
+#inputTask{
+    width: 45vw;
+    padding: 8px;
+    font-size: 16px;
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border: 0px;
+}
+
+#Addtaskbtn{
+    padding: 8px;
+    font-weight: 500;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer; 
+    background-color:rgb(66, 151, 100) ;
+        color: #fff;
+}
+#Addtaskbtn:hover{
+   background-color: transparent;
+   color: #1c1c1c;
+
+}
+

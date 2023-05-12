@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300&family=Lato:ital,wght@1,300&family=Manrope:wght@400;500;700;800&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link CSS style sheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>ToDo App Using Html CSS and JavaScript</title>
+  </head>
+  <body>
+    <!-- HTML -->
+    <div class="toDoContainer">
+      <!-- To-do header -->
+      <div class="to-doheader">
+        <h2>To-do App</h2>
+        <p>My task</p>
+      </div>
+      <!-- To-do task container box -->
+      <div id="taskBox">
+        <!-- <div id="SaveTaskBox">
+             <p id="taskTextContainer">
+          Read Book
+         </p>
+         //delete icon  
+         <i class="fa-solid fa-xmark" style="color:red; font-size: 30px; cursor: pointer;" id="removeBtn"></i>
+        </div> -->
+      </div>
+      <!-- To-do inputfield and button -->
+      <div class="inputContainer">
+        <div id="inputTaskBox">
+          <i
+            class="fa-regular fa-plus"
+            style="color: #fff; font-size: 24px; margin: 8px 3px"
+          ></i>
+          <input type="text" id="inputTask" placeholder="Enter Your Task" />
+        </div>
+        <button id="Addtaskbtn">Add Task</button>
+      </div>
+    </div>
+    <!-- Link Script file -->
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6a1c2b0a40.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
